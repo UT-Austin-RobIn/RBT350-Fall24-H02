@@ -5,13 +5,10 @@
 * Python
 * Git
 
-##### Windows-only setup
-The PyBullet simulator requires Microsoft Visual C++ to compile on Windows. You can find the download link for the build tools here. Once you have that installed, run the program and select the option for "Desktop development with C++". Leave all the "optional" downloads checked and download the packages. It will be quite a large download.
-
 ### Seup the codebase
 ```
-git clone https://github.com/UT-Austin-RobIn/RBT350-Fall24-H03.git
-cd RBT350-Fall24-H03
+git clone https://github.com/UT-Austin-RobIn/RBT350-Fall24-H02.git
+cd RBT350-Fall24-H02
 ```
 
 ### Conda environment setup
@@ -56,12 +53,12 @@ conda commands available from other packages (legacy):
 If you did not get an output similar to the above, install miniconda through [this link](https://docs.anaconda.com/miniconda/#quick-command-line-install). Once that's done, create a conda environment for the project by running the terminal commands below. If you're on Windows, you will need to do this in the Anaconda Prompt Terminal. Those on Linux and MacOS can run the commands in a regular terminal. 
 
 ```
-conda create -n rbt350_ho3 python=3.8
+conda create -n rbt350_ho2 python=3.8
 conda activate rbt350_ho2
 pip install -e .
 ```
 
 ### Running the code
 ```
-python reacher/reacher_manual_control.py
+python run_robot.py
 ```
