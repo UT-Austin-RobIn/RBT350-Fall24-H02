@@ -55,7 +55,7 @@ If you did not get an output similar to the above, install miniconda through [th
 ```
 conda create -n rbt350_ho2 python=3.8
 conda activate rbt350_ho2
-pip install -e .
+pip install -r requirements.txt
 ```
 
 ### Running the code
